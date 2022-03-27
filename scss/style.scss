@@ -3,11 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  width: 100%;
+  height: 100%;
+}
 li {
   list-style: none;
 }
 
+// navbar
 .nav__container {
   display: flex;
   justify-content: space-between;
@@ -35,5 +39,33 @@ li {
       padding: 0 10px;
       font-size: 18px;
     }
+  }
+}
+
+// HOME
+.home__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 100vh;
+  .home__men {
+    position: relative;
+    h2 {
+      position: absolute;
+      top: 40px;
+      left: 20px;
+    }
+  }
+  .home__women {
+    position: relative;
+    h2 {
+      position: absolute;
+      top: 40px;
+      left: 20px;
+    }
+  }
+  img {
+    width: 100%;
+    height: 100%;
   }
 }
