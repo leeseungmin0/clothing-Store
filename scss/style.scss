@@ -16,8 +16,12 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15px;
-  padding: 0 10px;
+  position: sticky;
+  top: 0;
+  padding: 10px 10px 0 10px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  z-index: 5;
   .logo {
     font-size: 42px;
   }
