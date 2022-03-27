@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 0 10px;
+  .logo {
+    font-size: 42px;
+  }
+  .navbar__center {
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    margin-left: 14px;
+    li {
+      padding: 0 10px;
+      font-size: 18px;
+    }
+  }
+  .navbar__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      padding: 0 10px;
+      font-size: 18px;
+    }
+  }
+}
