@@ -97,6 +97,7 @@ li {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     img {
+      display: block;
       width: 100%;
       height: 100%;
     }
@@ -107,6 +108,74 @@ li {
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    img {
+      display: none;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.shop__container {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  .shop__top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .shop__mid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    .mid__description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 100px;
+      h2 {
+        padding: 10px;
+        align-self: flex-start;
+      }
+      p:nth-child(2),
+      p:nth-child(3) {
+        padding: 10px;
+      }
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .shop__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    .bottom__description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 100px;
+      h2 {
+        padding: 10px;
+        align-self: flex-start;
+      }
+      p:nth-child(2),
+      p:nth-child(3) {
+        padding: 10px;
+      }
+    }
     img {
       width: 100%;
       height: 100%;
